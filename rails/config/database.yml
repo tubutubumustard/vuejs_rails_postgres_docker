@@ -6,13 +6,13 @@ default: &default
 development:
   <<: *default
   host: db
-  database: chat_app_development
+  database: myapp_development
   username: postgres
   password: postgres
 
 test:
   <<: *default
   host: db_test
-  database: chat_app_test
+  database: myapp_test
   username: postgres
   password: postgres
